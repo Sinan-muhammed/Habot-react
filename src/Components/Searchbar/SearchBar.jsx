@@ -1,4 +1,4 @@
-import React from "react";
+
 import PropTypes from "prop-types";
 
 const SearchBar = ({ placeholder }) => {
@@ -8,10 +8,8 @@ const SearchBar = ({ placeholder }) => {
         <div className="item">
           <input
             type="text"
-            id="city"
-            name="city"
             placeholder={placeholder}
-            className="h-14 w-[400px] pl-14 rounded"
+            className="h-14 w-[400px] pl-14 rounded font-Poppins text-slate-500 "
           />
         </div>
       </div>

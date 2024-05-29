@@ -1,4 +1,6 @@
 import BuyerForm from "../../Components/Buyerform/Buyerform"
+import Details from "../../Components/SignupDetails/Details"
+import VideoCom from "../../Components/VideoComponent/videoCompnt"
 import NavBar from "../../Components/navBar/NavBar"
 
 const Home = ()=>{
@@ -9,7 +11,13 @@ const Home = ()=>{
            </div>  
            <div className="Buyer">
               <BuyerForm/>
-            </div>        
+            </div>     
+            <div className="Details">
+                <Details/>
+            </div> 
+            <div className="video-Com">
+                <VideoCom/>
+            </div>  
         </>
     )
 }
