@@ -1,5 +1,5 @@
 import BuyerForm from "../../Components/Buyerform/Buyerform"
-import Details from "../../Components/SignupDetails/Details"
+import Details from "../../Components/ServiceDetails/Details"
 import VideoCom from "../../Components/VideoComponent/videoCompnt"
 import NavBar from "../../Components/navBar/NavBar"
 

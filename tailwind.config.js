@@ -10,7 +10,7 @@ export default {
           "Handlee": ['Handlee','Roboto',"Reddit","Poppins"],
           "Poppins" :["Poppins"]
 
-         }
+         },
     },
   },
   plugins: [],

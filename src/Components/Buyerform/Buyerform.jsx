@@ -17,11 +17,11 @@ const BuyerForm = ()=>{
                         </div>
                         <div className="Search-bar flex justify-between gap-2">
                             <div className='flex justify-between' >
-                            <i className=' text-[23px] relative text-orange-500 top-4 left-11 font-normal'><FaSuitcase/></i>    
+                            <i className=' text-[23px] relative text-[#E7760D] top-4 left-11 font-normal'><FaSuitcase/></i>    
                             <SearchBar placeholder='Search your required service here'/>
                             </div>
                             <div className='flex justify-between ml-[-22px]'>
-                                <i className=' text-[23px] relative text-orange-500 top-4 left-11 font-normal'><FaLocationDot/></i>
+                                <i className=' text-[23px] relative text-[#E7760D] top-4 left-11 font-normal'><FaLocationDot/></i>
                             <SearchBar placeholder=' Search your desired location here'/>
                             </div>
                             <div className="button">
