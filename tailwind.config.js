@@ -8,7 +8,7 @@ export default {
     extend: {
          fontFamily:{
           "Handlee": ['Handlee','Roboto',"Reddit","Poppins"],
-          "Poppins" :'Poppins'
+          "Poppins" :["Poppins"]
 
          }
     },
