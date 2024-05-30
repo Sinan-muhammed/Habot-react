@@ -10,11 +10,10 @@ const NavBar = ()=>{
             </div>
             <div className="left flex justify-between flex-initial w-[30%] items-center h-20  mr-14">
                     <div className="item">
-                        <a href=""><p className="font-light text-slate-600">Find Suppliers</p></a>
+                        <a href=""><p className=" font-Poppins text-[#6D6E71]  text-[15.25px] font-[400]">Find Suppliers</p></a>
                     </div>
                     <div className="item flex align-middle justify-center cursor-pointer">
-                          <label htmlFor="findServiceTags" className="text-slate-600 cursor-pointer">Find Service Tags </label>
-                          <i className="mt-1 ml-2 w-2 font-light text-slate-600"><FaChevronDown/></i>
+                          <label htmlFor="findServiceTags" className="text-[#6D6E71] cursor-pointer font-Poppins text-[15.25px] font-[400]">Find Service Tags </label>                          <i className="mt-1 ml-2 w-2 font-light text-slate-600"><FaChevronDown/></i>
                     </div>
                     <div className="button ">
                         <button className=" border-solid border-2 border-green-600 h-12 w-36 rounded-lg font-semibold text-sm text-green-600 hover:text-white hover:bg-green-600">

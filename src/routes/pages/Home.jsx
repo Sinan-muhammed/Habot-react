@@ -1,7 +1,9 @@
 import BuyerForm from "../../Components/Buyerform/Buyerform"
 import GetVerified from "../../Components/Getverified/GetVerified"
+import HowItWork from "../../Components/HowitWork/HowitWork"
 import Details from "../../Components/ServiceDetails/Details"
 import VideoCom from "../../Components/VideoComponent/videoCompnt"
+import Footer from "../../Components/footer/footer"
 import NavBar from "../../Components/navBar/NavBar"
 
 const Home = ()=>{
@@ -21,6 +23,12 @@ const Home = ()=>{
             </div>  
             <div className="get-verified">
                 <GetVerified/>
+            </div>
+            <div className="How-Work">
+                <HowItWork/>
+            </div>
+            <div className="footer">
+                <Footer/>
             </div>
         </>
     )

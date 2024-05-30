@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Points from "./Points"
 
 const VideoCom = ()=>{
 
@@ -27,30 +28,9 @@ const VideoCom = ()=>{
                                <div className="data h-[60%]  w-full flex pt-[60px] ">
                                     <div className="flex flex-col gap-3">
                                        
-                                        <div className="flex items-center  w-[80%]">                                          
-                                        <div className="w-[10%] bg-white">
-                                        <img src="../../../public/checked.png" alt="" className="w-[20px] h-[20px] "/>
-                                        </div>
-                                        <div className="w-[90%] bg-slate-400">
-                                        <h1 className="text-[20px] font-Poppins text-white font-semibold">{process === true ? data.Buyer[0] : data.Supplier[0]}</h1>
-                                        </div>
-                                        </div>
-                                        <div className="flex items-center  w-[80%]">                                          
-                                        <div className="w-[10%] bg-white">
-                                        <img src="../../../public/checked.png" alt="" className="w-[20px] h-[20px] "/>
-                                        </div>
-                                        <div className="w-[90%] bg-slate-400">
-                                        <h1 className="text-[20px] font-Poppins text-white font-semibold">{process === true ? data.Buyer[1] : data.Supplier[1]}</h1>
-                                        </div>
-                                        </div>
-                                        <div className="flex items-center  w-[80%]">                                          
-                                        <div className="w-[10%] bg-white">
-                                        <img src="../../../public/checked.png" alt="" className="w-[20px] h-[20px] "/>
-                                        </div>
-                                        <div className="w-[90%] bg-slate-500">
-                                        <h1 className="text-[20px] font-Poppins text-white font-semibold">{process === true ? data.Buyer[2] : data.Supplier[2]}</h1>
-                                        </div>
-                                        </div>
+                                        <Points text={process === true ? data.Buyer[0] : data.Supplier[0]}/>
+                                        <Points text={process === true ? data.Buyer[1] : data.Supplier[1]}/>
+                                        <Points text={process === true ? data.Buyer[2] : data.Supplier[2]}/>
                                        
                                     </div>
                                </div>

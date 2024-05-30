@@ -23,7 +23,7 @@ const Details = ()=>{
                     </p>
                  </div>
                  <div className="button ">
-                    <button className="h-[55px] rounded bg-green-800 w-[320px] text-white  flex justify-center items-center">
+                    <button className="h-[55px] rounded bg-[#00732F] w-[320px] text-white  flex justify-center items-center hover:bg-[#49bb78]">
                         <h1 className="text-[18px] font-Poppins font-bold ml-[20px]">
                        Sign up Today !
                         </h1>
