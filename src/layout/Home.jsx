@@ -1,10 +1,10 @@
-import BuyerForm from "../../Components/Buyerform/Buyerform"
-import GetVerified from "../../Components/Getverified/GetVerified"
-import HowItWork from "../../Components/HowitWork/HowitWork"
-import Details from "../../Components/ServiceDetails/Details"
-import VideoCom from "../../Components/VideoComponent/videoCompnt"
-import Footer from "../../Components/footer/footer"
-import NavBar from "../../Components/navBar/NavBar"
+import BuyerForm from "../Components/Buyerform/Buyerform"
+import GetVerified from "../Components/Getverified/GetVerified"
+import HowItWork from "../Components/HowitWork/HowitWork"
+import Details from "../Components/ServiceDetails/Details"
+import VideoCom from "../Components/VideoComponent/videoCompnt"
+import Footer from "../Components/footer/footer"
+import NavBar from "../Components/navBar/NavBar"
 
 const Home = ()=>{
     return (
@@ -16,7 +16,7 @@ const Home = ()=>{
               <BuyerForm/>
             </div>     
             <div className="Details">
-                <Details/>
+                <Details/>  
             </div> 
             <div className="video-Com">
                 <VideoCom/>

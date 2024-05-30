@@ -1,13 +1,13 @@
-import Home from "./routes/pages/Home"
+import Home from "./layout/Home"
 import './App.css'
 
 function App() {
 
   return (
     <>
-     <div>
+  
        <Home/>
-     </div>
+    
     </>
   )
 }

@@ -1,4 +1,4 @@
-import SearchBar from '../Searchbar/SearchBar'
+import SearchBar from './SearchBar'
 import { FaLocationDot,FaSuitcase } from "react-icons/fa6";
 
 const BuyerForm = ()=>{
@@ -15,7 +15,7 @@ const BuyerForm = ()=>{
                              Explore Matching Opportunities.
                         </h1>
                         </div>
-                        <div className="Search-bar flex justify-between gap-2">
+                        <div className="Search-bar flex justify-between gap-2 ">
                             <div className='flex justify-between' >
                             <i className=' text-[23px] relative text-[#E7760D] top-4 left-11 font-normal'><FaSuitcase/></i>    
                             <SearchBar placeholder='Search your required service here'/>

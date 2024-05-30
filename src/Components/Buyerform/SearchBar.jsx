@@ -9,7 +9,7 @@ const SearchBar = ({ placeholder }) => {
           <input
             type="text"
             placeholder={placeholder}
-            className="h-14 w-[400px] pl-14 rounded font-Poppins text-slate-500 "
+            className="h-full lg:h-14 md:h-8  md:w-[350px] lg:w-[400px]  md:pl-14 rounded font-Poppins text-slate-500 "
           />
         </div>
       </div>

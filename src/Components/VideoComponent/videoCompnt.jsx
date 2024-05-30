@@ -21,9 +21,9 @@ const VideoCom = ()=>{
                            <a href="" ><img src="../../../public/youtube.png" alt="" className="absolute w-[200px] top-[37%] left-[35%]"/></a>
                     </div>
                     <div className="right h-full w-[45%] flex flex-col justify-center items-center ">
-                               <div className="title flex w-full justify-around items-center  h-[80px] mr-[62px] mt-[140px]">
-                                <div onClick={()=>setProcess(true)} className={`buyer w-[40%] h-full flex items-center justify-center ${process === true ? 'text-[#f2804b] border-b-4 border-[#f2804b]' : 'text-white border-none'}`}><h1 className="text-[30px] font-Poppins font-extrabold "> Buyer</h1></div>
-                                <div onClick={()=>setProcess(false)} className={`supplier w-[40%] h-full flex items-center justify-center ${process === false ? 'text-[#f2804b] border-b-4 border-[#f2804b]' :'text-white border-none' }`}><h1 className="text-[30px] font-Poppins font-extrabold ">Supplier</h1></div>
+                               <div className="title flex w-full justify-around items-center  h-[80px] mr-[62px] mt-[140px] ">
+                                <div onClick={()=>setProcess(true)} className={`buyer w-[40%] h-full flex items-center justify-center cursor-pointer ${process === true ? 'text-[#f2804b] border-b-4 border-[#f2804b]' : 'text-white border-none'}`}><h1 className="text-[30px] font-Poppins font-extrabold "> Buyer</h1></div>
+                                <div onClick={()=>setProcess(false)} className={`supplier w-[40%] h-full flex items-center justify-center cursor-pointer ${process === false ? 'text-[#f2804b] border-b-4 border-[#f2804b]' :'text-white border-none' }`}><h1 className="text-[30px] font-Poppins font-extrabold ">Supplier</h1></div>
                                </div>
                                <div className="data h-[60%]  w-full flex pt-[60px] ">
                                     <div className="flex flex-col gap-3">
