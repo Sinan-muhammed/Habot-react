@@ -5,8 +5,8 @@ const Buttons = ({text})=>{
     return (
         <>
           <div className="Main">
-      <button className="border-solid border-2 border-[#E7760D] h-10 md:h-12 lg:h-14 w-24 md:w-32 lg:w-40 rounded-lg font-semibold ">
-        <h1 className="text-slate-600 sm:text-[10px]">{text}</h1>
+      <button className="border-solid border-2 border-[#E7760D] h-[65px] w-[260px] rounded-lg font-semibold hover:bg-[#e7760d91] hover:border-none">
+        <h1 className="text-slate-600 text-[18.75px] font-[500] ">{text}</h1>
       </button>
     </div>
 
