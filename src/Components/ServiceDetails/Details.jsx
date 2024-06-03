@@ -15,7 +15,7 @@ const Details = () => {
             </h1>
           </div>
           <div className="paragraph">
-            <p className="text-lg md:text-[18px] font-Poppins font-[400] ">
+            <p className="text-lg md:text-[18px] font-Poppins font-[400] text-start">
               Signing up with HABOT opens the door to a world of new opportunities <br/>
               and potential for business growth. Gain access to a vibrant community <br/>
               of like-minded individuals, unlock valuable resources, and take the first <br/>
